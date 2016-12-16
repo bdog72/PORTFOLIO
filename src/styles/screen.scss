@@ -9,6 +9,47 @@ html {
 
 body {
   @include font-smoothing(on);
+
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
+  background-color: rgb(221, 208, 196);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+header img {
+  border-radius: 10px;
+}
+
+header div h1 {
+  background: white;
+  margin-left: 30px;
+  height: 50px;
+  padding: 0 20px;
+  border-radius: 10px 10px 0 0;
+  padding-top: 5px;
+}
+
+header div p {
+  background: white;
+  margin-left: 30px;
+  margin-top: -22px;
+  height: 30px;
+  padding: 0 20px;
+  font-size: 17px;
+  border-radius: 0 0 10px 10px;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+section img {
+  border-radius: 10px;
 }

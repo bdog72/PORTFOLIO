@@ -1,27 +1,37 @@
 import React, { Component } from 'react'
 
-import styles from './styles.css'
-
 class App extends Component {
 
   constructor () {
     super()
     this.state = {
-      user: '',
-      Data: ''
+      name: '',
+      location: '',
+      imageURL: '',
+      bio: ''
     }
   }
   componentDidMount () {
-    fetch()
+    window.fetch('https://api.github.com/users/bdog72').then((response) => {
+      return response.json()
+    }).then((data) => {
+      this.setState({
+        name: data.name,
+        location: data.location,
+        imageURL: data.avatar_url,
+        bio: data.bio
+      })
+    })
   }
   render () {
     return <div>
 
       <header>
-        <img src='https://avatars1.githubusercontent.com/u/20337443?v=3&u=a0d73d2c6321ca41c257804706062910c38d2c56&s=400' height='225' width='225' className='profile' />
+        <img src={this.state.imageURL} height='225' width='225' className='profile' />
         <div>
-          <h1>Hi, I'm Brian Bycynski</h1>
-          <p>I'm a Jr. Front End Engineer in St. Petersburg, FL</p>
+          <h1>Hi, I'm {this.state.name}</h1>
+          <p>I'm a Jr. Front End Engineer in {this.state.location}</p>
+          <p>{this.state.bio}</p>
         </div>
       </header>
       <section>
