@@ -30,17 +30,15 @@ class App extends Component {
         <img src={this.state.imageURL} height='225' width='225' className='profile' />
         <div>
           <h1>Hi, I'm {this.state.name}</h1>
-          <p>I'm a Jr. Front End Engineer in {this.state.location}</p>
           <p>{this.state.bio}</p>
+          <p>I'm a Jr. Front End Engineer in {this.state.location}</p>
         </div>
       </header>
       <section>
-        <img src='https://raw.githubusercontent.com/bdog72/portfolio4/master/public/images/one-list.png' width='250' height='200' />
+        {/* <img src='https://raw.githubusercontent.com/bdog72/portfolio4/master/public/images/one-list.png' width='250' height='200' />
         <img src='https://raw.githubusercontent.com/bdog72/portfolio4/master/public/images/make-it-rain.png' width='250' height='200' />
-        <img src='https://raw.githubusercontent.com/bdog72/portfolio4/master/public/images/bomb-sniffer.png' width='250' height='200' />
+        <img src='https://raw.githubusercontent.com/bdog72/portfolio4/master/public/images/bomb-sniffer.png' width='250' height='200' /> */}
       </section>
-
-      <img src='https://raw.githubusercontent.com/bdog72/portfolio4/master/public/images/react.png' width='1424' height='200' />
 
     </div>
   }
