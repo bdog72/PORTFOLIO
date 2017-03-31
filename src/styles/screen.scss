@@ -57,7 +57,8 @@ body {
   display: grid;
   // grid-template-columns: 150px auto 150px;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(3, 200px);
+  // grid-template-rows: repeat(3, 200px);
+  grid-template-rows: 100px 300px 100px;
   grid-gap: 5px;
 }
 
