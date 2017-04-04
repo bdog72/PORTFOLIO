@@ -27,9 +27,9 @@ class App extends Component {
   render () {
     return <div>
       <header>
-        <h1>{this.state.name}</h1>
         <Image className='pro1' src={this.state.imageURL} responsive />
         <div>
+          <h1>{this.state.name}</h1>
           <p>{this.state.bio}</p>
           <p>I'm a Jr. Front End Engineer in {this.state.location}</p>
         </div>
