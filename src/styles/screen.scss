@@ -13,6 +13,7 @@ body {
   margin: 20px;
   font: $base-text-size / 1 $base-font-family;
   background-color: rgb(221, 208, 196);
+  font-family: 'Patua One';
 }
 
 // header {
@@ -105,3 +106,14 @@ body {
 //   display: flex;
 //   padding: 10px;
 // }
+header h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+header .pro1 {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-content: center;
+}
