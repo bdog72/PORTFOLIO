@@ -34,10 +34,16 @@ class App extends Component {
           <p>I'm a Jr. Front End Engineer in {this.state.location}</p>
         </div>
       </header>
-      <h2>Click on my chart to visit my GitHub page</h2>
-      <a href='https://github.com/bdog72'>
-        <img src='http://ghchart.rshah.org/bdog72' alt='Brians GitHub chart' />
-      </a>
+      <section>
+        <div>
+          <h2 className='item1'>Click on my chart to visit my GitHub page</h2>
+        </div>
+        <div className='item2'>
+          <a href='https://github.com/bdog72'>
+            <img src='http://ghchart.rshah.org/bdog72' alt='Brians GitHub chart' />
+          </a>
+        </div>
+      </section>
     </div>
   }
 }
