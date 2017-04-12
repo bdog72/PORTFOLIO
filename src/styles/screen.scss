@@ -111,15 +111,23 @@ header h1 {
   font-size: 50px;
 }
 
-header .pro1 {
-  width: 300px;
-  height: 300px;
+.pro1 {
+  // width: 300px;
+  // height: 300px;
   display: flex;
-  align-content: center;
+  justify-content: center;
+}
+
+.pro2 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 20px;
 }
 
 .item1 {
   text-align: center;
+  margin-bottom: 20px;
+  font-size: 40px;
 }
 
 .item2 {

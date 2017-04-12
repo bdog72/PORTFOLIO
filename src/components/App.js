@@ -28,8 +28,10 @@ class App extends Component {
     return <div>
       <header>
         <h1>{this.state.name}</h1>
-        <Image className='pro1' src={this.state.imageURL} responsive />
-        <div>
+        <div className='pro1'>
+          <Image src={this.state.imageURL} responsive />
+        </div>
+        <div className='pro2'>
           <p>{this.state.bio}</p>
           <p>I'm a Jr. Front End Engineer in {this.state.location}</p>
         </div>
@@ -40,7 +42,7 @@ class App extends Component {
         </div>
         <div className='item2'>
           <a href='https://github.com/bdog72'>
-            <img src='http://ghchart.rshah.org/bdog72' alt='Brians GitHub chart' />
+            <Image src='http://ghchart.rshah.org/bdog72' alt='Brians GitHub chart' responsive />
           </a>
         </div>
       </section>
