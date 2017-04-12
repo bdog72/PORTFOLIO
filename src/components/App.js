@@ -37,12 +37,18 @@ class App extends Component {
         </div>
       </header>
       <section>
-        <div>
-          <h2 className='item1'>Click on my chart to visit my GitHub page</h2>
-        </div>
+
+        <h2 className='item1'>Click on my chart to visit my GitHub page</h2>
+
         <div className='item2'>
           <a href='https://github.com/bdog72'>
             <Image src='http://ghchart.rshah.org/bdog72' alt='Brians GitHub chart' responsive />
+          </a>
+        </div>
+        <h2 className='item1'>Follow me on twitter</h2>
+        <div className='item3'>
+          <a href='https://twitter.com/Bdoggy72'>
+            <Image src='http://www.lifemalvasiamurcia.es/images/MB_0026_twitter3.png' responsive />
           </a>
         </div>
       </section>
