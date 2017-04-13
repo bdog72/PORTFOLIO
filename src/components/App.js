@@ -26,6 +26,7 @@ class App extends Component {
   }
   render () {
     return <div>
+      <sidebar-left />
       <header>
         <h1>{this.state.name}</h1>
         <div className='pro1'>
@@ -37,9 +38,7 @@ class App extends Component {
         </div>
       </header>
       <section>
-
         <h2 className='item1'>Click on my chart to visit my GitHub page</h2>
-
         <div className='item2'>
           <a href='https://github.com/bdog72'>
             <Image src='http://ghchart.rshah.org/bdog72' alt='Brians GitHub chart' responsive />
@@ -52,6 +51,7 @@ class App extends Component {
           </a>
         </div>
       </section>
+      <sidebar-right />
     </div>
   }
 }
