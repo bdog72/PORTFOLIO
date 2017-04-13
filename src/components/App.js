@@ -30,7 +30,7 @@ class App extends Component {
       <header>
         <h1>{this.state.name}</h1>
         <div className='pro1'>
-          <Image src={this.state.imageURL} responsive />
+          <Image src={this.state.imageURL} responsive circle />
         </div>
         <div className='pro2'>
           <p>{this.state.bio}</p>
