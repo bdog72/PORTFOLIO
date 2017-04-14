@@ -38,7 +38,7 @@ class App extends Component {
         </div>
       </header>
       <section>
-        <h2 className='item1'>Click on my chart to visit my GitHub page</h2>
+        <h2 className='item1'>My Current GitHub chart</h2>
         <div className='item2'>
           <a href='https://github.com/bdog72'>
             <Image src='http://ghchart.rshah.org/bdog72' alt='Brians GitHub chart' responsive />
