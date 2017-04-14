@@ -50,6 +50,8 @@ class App extends Component {
           </a>
         </div>
       </section>
+      <h3>813-505-4733</h3>
+      <h3>high5bri&#64;hotmail.com</h3>
     </div>
   }
 }
