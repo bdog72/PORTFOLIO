@@ -20,104 +20,12 @@ html {
   border: 55px solid black;
 }
 
-// header {
-//   display: flex;
-//   justify-content: center;
-//   margin: 40px 0;
-// }
-//
-// header img {
-//   border-radius: 10px;
-// }
-//
-// header div h1 {
-//   background: white;
-//   margin-left: 30px;
-//   height: 50px;
-//   padding: 0 20px;
-//   border-radius: 10px 10px 0 0;
-//   padding-top: 5px;
-// }
-//
-// header div p {
-//   background: white;
-//   margin-left: 30px;
-//   margin-top: -22px;
-//   height: 30px;
-//   padding: 0 20px;
-//   font-size: 17px;
-//   border-radius: 0 0 10px 10px;
-// }
-//
-// section {
-//   display: flex;
-//   justify-content: space-around;
-//   margin-bottom: 20px;
-// }
-//
-// section img {
-//   border-radius: 10px;
-// }
-// .grid {
-//   display: grid;
-//   // grid-template-columns: 150px auto 150px;
-//   grid-template-columns: 1fr 1fr 1fr;
-//   // grid-template-rows: repeat(3, 200px);
-//   grid-template-rows: 100px 300px 100px;
-//   grid-gap: 5px;
-// }
-//
-// header {
-//   grid-row: 1;
-//   grid-column: 1/4;
-//   border: 1px solid black;
-//   background-color: rgb(231, 228, 210);
-// }
-//
-// .sidebar-left {
-//   grid-row: 2;
-//   grid-column: 1/2;
-//   border: 1px solid black;
-//   background-color: rgb(231, 228, 210);
-// }
-//
-// article {
-//   grid-row: 2;
-//   grid-column: 2/3;
-//   border: 1px solid black;
-//   background-color: rgb(231, 228, 210);
-// }
-//
-// .sidebar-right {
-//   grid-row: 2;
-//   grid-column: 3/4;
-//   border: 1px solid black;
-//   background-color: rgb(231, 228, 210);
-// }
-//
-// footer {
-//   grid-row: 3;
-//   grid-column: 1/4;
-//   border: 1px solid black;
-//   background-color: rgb(231, 228, 210);
-// }
-// header h1 {
-//   text-align: center;
-//   font-size: 50px;
-// }
-//
-// header {
-//   display: flex;
-//   padding: 10px;
-// }
 header h1 {
   text-align: center;
   font-size: 50px;
 }
 
 .pro1 {
-  // width: 300px;
-  // height: 300px;
   display: flex;
   justify-content: center;
 }
@@ -142,11 +50,4 @@ header h1 {
 .item3 {
   display: flex;
   justify-content: center;
-}
-
-sidebar-left {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  border: 1 px solid black;
 }
