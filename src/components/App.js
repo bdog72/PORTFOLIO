@@ -49,6 +49,12 @@ class App extends Component {
             <Image src='http://www.lifemalvasiamurcia.es/images/MB_0026_twitter3.png' responsive />
           </a>
         </div>
+        <ul>
+          <li><img src='https://cdn1.iconfinder.com/data/icons/line-essentials-64/20/3155-128.png' alt='' /></li>
+          <li><img src='https://cdn0.iconfinder.com/data/icons/website-kit-2/512/icon_287-128.png' alt='' /></li>
+          <li><img src='https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/js-128.png' alt='' /></li>
+          <li><img src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-128.png' alt='' /></li>
+        </ul>
       </section>
       <h3>813-505-4733</h3>
       <h3>high5bri&#64;hotmail.com</h3>
