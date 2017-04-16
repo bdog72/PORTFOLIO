@@ -65,8 +65,23 @@ header h1 {
   margin: 50px 0;
 }
 
-.boot {
+.clown {
   list-style-type: none;
   display: flex;
   justify-content: center;
+  // animation: clown-spin infinite 20s linear;
+}
+
+// @keyframes clown-spin {
+//   from { transform: rotate(0deg); }
+//   to { transform: rotate(360deg); }
+// }
+
+footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.foot1 {
+  text-align: center;
 }
