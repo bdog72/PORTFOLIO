@@ -49,11 +49,16 @@ class App extends Component {
             <Image src='http://www.lifemalvasiamurcia.es/images/MB_0026_twitter3.png' responsive />
           </a>
         </div>
+        <h2 className='sk1'>Skills</h2>
         <ul className='skills'>
           <li><Image src='https://cdn1.iconfinder.com/data/icons/line-essentials-64/20/3155-128.png' alt='' responsive /></li>
           <li><Image src='https://cdn0.iconfinder.com/data/icons/website-kit-2/512/icon_287-128.png' alt='' responsive /></li>
+          <li><Image src='https://cdn0.iconfinder.com/data/icons/party-icons/110/Clown-128.png' responsive /></li>
           <li><Image src='https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/js-128.png' alt='' responsive /></li>
           <li><Image src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-128.png' alt='' responsive /></li>
+        </ul>
+        <ul className='boot'>
+          <li><Image src='https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/boostrap-128.png' responsive /></li>
         </ul>
       </section>
       <h3>813-505-4733</h3>
