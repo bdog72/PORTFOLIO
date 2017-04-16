@@ -65,8 +65,11 @@ class App extends Component {
       </footer> */}
       <Grid>
         <Row>
-          <Col md={3}><h3>813-505-4733</h3><h3>high5bri&#64;hotmail.com</h3></Col>
-          <Col md={6}><p className='foot1'>Made with &hearts; at The Iron Yard &#64; 2017</p></Col>
+          <Col md={6}><h3>813-505-4733</h3></Col>
+        </Row>
+        <Row>
+          <Col md={3}><h3>high5bri&#64;hotmail.com</h3></Col>
+          <Col md={7}><h3 className='foot1'>Made with &hearts; at The Iron Yard &#64; 2017</h3></Col>
         </Row>
       </Grid>
     </div>
