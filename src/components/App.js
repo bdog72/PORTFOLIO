@@ -41,7 +41,7 @@ class App extends Component {
         <h2 className='item1'>Follow me on twitter</h2>
         <div className='item3'>
           <a href='https://twitter.com/Bdoggy72'>
-            <Image src='http://www.lifemalvasiamurcia.es/images/MB_0026_twitter3.png' responsive />
+            <Image className='tweet' src='https://cdn1.iconfinder.com/data/icons/social-media-icon-1/112/twitter-128.png' responsive />
           </a>
         </div>
         <h2 className='sk1'>Skills</h2>
@@ -53,7 +53,7 @@ class App extends Component {
           <li><Image src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-128.png' alt='' responsive /></li>
         </ul>
         <ul className='clown'>
-          <li><Image src='https://cdn0.iconfinder.com/data/icons/party-icons/110/Clown-128.png' responsive /></li>
+          <li><Image src='https://cdn0.iconfinder.com/data/icons/free_windows7_icons_emoticons/64/clown.png' responsive /></li>
         </ul>
       </section>
       {/* <footer>
