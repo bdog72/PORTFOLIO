@@ -70,13 +70,16 @@ header h1 {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  // animation: clown-spin infinite 20s linear;
 }
 
-// @keyframes clown-spin {
-//   from { transform: rotate(0deg); }
-//   to { transform: rotate(360deg); }
-// }
+.tweet {
+  animation: clown-spin infinite 20s linear;
+
+  @keyframes tweet-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+}
 
 footer {
   display: flex;

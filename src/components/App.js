@@ -53,7 +53,7 @@ class App extends Component {
           <li><Image src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-128.png' alt='' responsive /></li>
         </ul>
         <ul className='clown'>
-          <li><Image src='https://cdn0.iconfinder.com/data/icons/free_windows7_icons_emoticons/64/clown.png' responsive /></li>
+          <li><Image className='clown1' src='https://cdn0.iconfinder.com/data/icons/free_windows7_icons_emoticons/64/clown.png' responsive /></li>
         </ul>
       </section>
       {/* <footer>
