@@ -44,7 +44,7 @@ class App extends Component {
             <Image className='tweet' src='https://cdn1.iconfinder.com/data/icons/social-media-icon-1/112/twitter-128.png' responsive />
           </a>
         </div>
-        <h2 className='sk1'>Skills</h2>
+        <h2 className='sk1'>My Skills</h2>
         <ul className='skills'>
           <li><Image src='https://cdn1.iconfinder.com/data/icons/line-essentials-64/20/3155-128.png' alt='' responsive /></li>
           <li><Image src='https://cdn0.iconfinder.com/data/icons/website-kit-2/512/icon_287-128.png' alt='' responsive /></li>
@@ -52,17 +52,10 @@ class App extends Component {
           <li><Image src='https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/js-128.png' alt='' responsive /></li>
           <li><Image src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-128.png' alt='' responsive /></li>
         </ul>
-        <ul className='clown'>
-          <li><Image className='clown1' src='https://cdn0.iconfinder.com/data/icons/free_windows7_icons_emoticons/64/clown.png' responsive /></li>
-        </ul>
-      </section>
-      {/* <footer>
-        <div>
-          <h3>813-505-4733</h3>
-          <h3>high5bri&#64;hotmail.com</h3>
+        <div className='clown'>
+          <Image src='https://cdn0.iconfinder.com/data/icons/free_windows7_icons_emoticons/64/clown.png' responsive />
         </div>
-        <p className='foot1'>Made with &hearts; at The Iron Yard &#64; 2017</p>
-      </footer> */}
+      </section>
       <Grid>
         <Row>
           <Col md={6}><h3>813-505-4733</h3></Col>

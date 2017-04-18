@@ -10,7 +10,6 @@ html {
 body {
   @include font-smoothing(on);
 
-  margin: 20px;
   font: $base-text-size / 1 $base-font-family;
   background-color: rgb(221, 208, 196);
   font-family: 'Patua One';
@@ -22,24 +21,31 @@ html {
 
 header h1 {
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
+  margin: 40px 0;
 }
 
 .pro1 {
   display: flex;
   justify-content: center;
+  margin: 40px 10px;
+  font-size: 30px;
+}
+
+.pro2 p {
+  margin: 40px 0;
 }
 
 .pro2 {
   text-align: center;
   margin: 20px 0;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .item1 {
   text-align: center;
-  margin-bottom: 20px;
-  font-size: 40px;
+  margin: 40px 0;
+  font-size: 50px;
 }
 
 .item2 {
@@ -67,19 +73,18 @@ header h1 {
 }
 
 .clown {
-  list-style-type: none;
   display: flex;
   justify-content: center;
 }
 
-.tweet {
-  animation: clown-spin infinite 20s linear;
-
-  @keyframes tweet-spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-  }
-}
+// .clown1 {
+//   animation: clown-spin infinite 20s linear;
+//
+//   @keyframes clown1-spin {
+//     from { transform: rotate(0deg); }
+//     to { transform: rotate(360deg); }
+//   }
+// }
 
 footer {
   display: flex;
